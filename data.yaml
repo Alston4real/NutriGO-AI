@@ -1,0 +1,25 @@
+# Dataset layout (export from Roboflow in "YOLOv8/11 Segmentation" format):
+#   data/images/{train,val,test}  and  data/labels/{train,val,test}
+path: ../data
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: plate
+  1: chicken_rice_rice
+  2: roast_chicken
+  3: cucumber
+  4: fried_egg
+  5: boiled_egg
+  6: nasi_lemak_rice
+  7: sambal
+  8: ikan_bilis
+  9: peanuts
+  10: laksa_noodles
+  11: laksa_gravy
+  12: prawn
+  13: fishcake
+  14: bean_sprouts
+  15: char_kway_teow_noodles
+  16: roti_prata
+  17: dhal_curry
